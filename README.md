@@ -1,9 +1,9 @@
-# Neurons Front-end Developer Coding Test
+# Neurons Frontend Engineer Coding Test
 Be sure to read **all** of this document carefully, and follow the guidelines within.
 
 ## Context
 
-Use React w/ TypeScript to implement the following mock-up. You will need to leverage an open API for Tv Show data to fill in the details and functionality as described below. You are only required to complete the desktop views, unless otherwise instructed.
+Use React w/ TypeScript to implement the following mock-up. You will need to leverage an open API for TV Show data to fill in the details and functionality as described below. You are only required to complete the desktop views, unless otherwise instructed.
 
 Use this Figma file to see the Product UX/Design guidelines, you are welcome to improve the design experience as you see fit. 
 
@@ -62,38 +62,31 @@ Detail Cards(Episodes)
 - Under each pages you can search for 
  - Cast : Name or Character name 
  - Episode: Name of the show or part of the description of the show. 
-- Under each pages you can filter the list of content  
-- Each page has options of filters e.g Country that may be dynamic created based on content, but not required.
-- Filtering options should be saved in the session as well as when I return to the application. _(optional)_ 
+- Under each pages you can filter the list of content. We encourage you to choose the filters yourself.
 - All data should come from Realtime API 
-
-
 
 ### Tech stack
 
 - TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
-  - Use **React**
-  - We encorage you not to use any React boilerplate, such as Create React App, but you can definitely do it if it will save you some time.
-- Feel free to use a preprocessor, CSS-in-JS, or JSS tool. Additionally, you can use any existing UI library in the market such as Ant Design or Material UI. There are a few considerations that apply to this:
+  - Use **React** as possible, but other frameworks like Angular, VueJS or Svelte are accepted.
+  - We encorage you to use a React boilerplate, such as Create React App as this can save you some time.
+- Feel free to use a preprocessor, CSS-in-JS, or JSS tool. Additionally, you can use any existing UI library in the market such as Ant Design, Material UI, Bulma, etc. There are a few considerations that apply to this:
     - try to design your components while having on mind that they will be consumed and mantained by other developers later on. 
     - we want to see your understanding of CSS and styling practices
     - we allow leveraging UI libraries to help you code faster, but we do expect some component design practice. 
 
 ### State management
-Feel free to use any state management strategy you'd like. While Redux is the most widely known approach to this, we do understand it requires some boilerplate. We'd like you to be pragmatic while thinking on maintainability of the code which doesn't necessarily translate into a specific library or tool.
+Feel free to use any state management strategy you'd like. While Redux is the most widely known approach, we do understand it requires some boilerplate. We'd like you to be pragmatic while thinking on maintainability of the code which doesn't necessarily translate into a specific library or tool.
 
 ### Bonus
 
-The following are nice-to-have features.
+The following are **nice-to-have features**.
 
 - Make the application accessible
 - Write clear **documentation** on how the app was designed and how to run the code
 - Implement useful testing
-- Provide components in [Storybook (https://storybook.js.org)
 - Write concise and clear commit messages
 - Provide an online demo of the application
-- Include subtle animations to focus attention
-- Created a Responsive version of the application
 - Describe improvement opportunities when you conclude
 
 ## What We Care About
@@ -120,7 +113,7 @@ Please fill out this questionnaire and commit your answers to the repo
 
 > Where should I send back the result when I'm done?
 
-Fork this repo and share the repo with the hiring manager via email when you think you are done. There is no deadline for this task unless otherwise noted to you directly.
+Fork this repo and share the repo with the hiring manager via email when you think you are done. There is no deadline for this task unless otherwise noted to you directly. **You can make the fork private too**. Just let the hiring manager know so they can send you and email address to add them as contributor.
 
 > What if I have a question?
 
